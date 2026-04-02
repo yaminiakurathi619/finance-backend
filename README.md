@@ -97,3 +97,7 @@ MongoDB Atlas is used for cloud database.
 ## Status
 
 Project completed with all core features working successfully.
+
+## Security Note
+
+Database credentials were rotated after initial commit for security purposes.
