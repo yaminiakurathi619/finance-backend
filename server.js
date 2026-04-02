@@ -17,7 +17,9 @@ const authorize = (roles) => (req, res, next) => {
 };
 
 mongoose
-  .connect("mongodb+srv://admin:admin123@cluster0.sdwbfit.mongodb.net/finance")
+  .connect(
+    "mongodb+srv://admin:Admin7893@cluster0.sdwbfit.mongodb.net/finance?retryWrites=true&w=majority",
+  )
   .then(() => console.log("DB connected"))
   .catch((err) => console.log(err));
 
